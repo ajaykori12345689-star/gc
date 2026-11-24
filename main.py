@@ -385,4 +385,4 @@ def stop_task():
     return '<h3 style="color:red;text-align:center;margin-top:50px;">No task found with that ID.</h3>'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, threaded=True)
+    app.run(host='0.0.0.0', port=25045, threaded=True)
